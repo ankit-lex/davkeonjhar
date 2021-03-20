@@ -36,47 +36,47 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html"><img src = "assets/img/davlogo.jpg"></a></h1>
+        <h1 class="text-light"><a href="index.php"><img src = "assets/img/davlogo.jpg"></a></h1>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="active" href="index.php">Home</a></li>
           <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="about.html">About Our School</a></li>
-              <li><a href="about.html">Visions and Missions</a></li>
-              <li><a href="about.html">Code of Conduct</a></li>
-              <li><a href="about.html">Principal Message</a></li>
-              <li><a href="about.html">Chairman Message</a></li>
-              <li><a href="team.html">School PTCC</a></li>
-              <li class="dropdown"><a href="#"><span>Commitees</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a href="pages/about.php">About Our School</a></li>
+              <li><a href="pages/vnm.php">Visions and Missions</a></li>
+              <li><a href="pages/coc.php">Code of Conduct</a></li>
+              <li><a href="pages/principalm.php">Principal Message</a></li>
+              <li><a href="pages/chairmanm.php">Chairman Message</a></li>
+              <li><a href="pages/sptcc.php">School PTCC</a></li>
+              <li class="dropdown"><a href="pages/committees.php"><span>Commitees</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Management Committee</a></li>
-                  <li><a href="#">SCC</a></li>
+                  <li><a href="pages/mcommittees.php">Management Committee</a></li>
+                  <li><a href="pages/scc.php">SCC</a></li>
                 </ul>
               </li>
             </ul>
           </li>
-          <li class="dropdown"><a href="services.html">Academic<i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="pages/academic.php">Academic<i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="about.html">TC Issued</a></li>
-              <li><a href="about.html">Admission Procedure</a></li>
-              <li><a href="about.html">Fees</a></li>
-              <li><a href="about.html">Syllabus</a></li>
-              <li><a href="about.html">Academic Calender</a></li>
-              <li><a href="about.html">School Uniform</a></li>
+              <li><a href="pages/tc.php">TC Issued</a></li>
+              <li><a href="pages/ap.php">Admission Procedure</a></li>
+              <li><a href="pages/fees.php">Fees</a></li>
+              <li><a href="pages/syllabus.php">Syllabus</a></li>
+              <li><a href="pages/ac.php">Academic Calender</a></li>
+              <li><a href="pages/uniform.php">School Uniform</a></li>
             </ul>
           </li>
-          <li><a href="portfolio.html">Admission</a></li>
-          <li><a href="blog.html">Achievements</a></li>
-          <li><a href="contact.html">Activities</a></li>
-          <li><a href="contact.html">Syllabus</a></li>
-          <li><a href="contact.html">Facilities</a></li>
-          <li><a href="contact.html">Galleries</a></li>
-          <li><a href="contact.html">Staffs</a></li>
+          <li><a href="pages/ap.php">Admission</a></li>
+          <li><a href="pages/achievements.php">Achievements</a></li>
+          <li><a href="pages/activities.php">Activities</a></li>
+          <li><a href="pages/syllabus.php">Syllabus</a></li>
+          <li><a href="pages/fac.php">Facilities</a></li>
+          <li><a href="pages/gallery.php">Galleries</a></li>
+          <li><a href="pages/contact.php">Staffs</a></li>
 
-          <li><a class="getstarted" href="about.html">Login</a></li>
+          <li><a class="getstarted" href="app/login.php">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -150,7 +150,7 @@
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
               culpa qui officia deserunt mollit anim id est laborum
               <br>
-            <a class="readmore" href="about.html">Read More</a>
+            <a class="readmore" href="about.php">Read More</a>
             </p>
           </hr>
             <h3>Principals Message</h3>
@@ -161,7 +161,7 @@
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
               culpa qui officia deserunt mollit anim id est laborum
               </br>
-            <a class="readmore" href="about.html">Read More</a>
+            <a class="readmore" href="about.php">Read More</a>
             </p>
           </div>
 
@@ -207,7 +207,7 @@
               </tr>
             </tbody>
           </table>
-          <a class="cta-btn" href="#">Read More</a>
+          <a class="cta-btn" href="pages/notice.php">Read More</a>
         </div>
 
       </div>
@@ -359,11 +359,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="#">Admission</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="pages/ap.php">Admission</a></li>
+              <li><a href="pages/gallery.php">Gallery</a></li>
+              <li><a href="pages/contact.php">Contact Us</a></li>
               <li><a href="#">Bus Routes</a></li>
-              <li><a href="#">Social Awareness</a></li>
+              <li><a href="pages/sa.php">Social Awareness</a></li>
             </ul>
           </div>
 
@@ -379,16 +379,14 @@
 
             <div class="social-links">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.facebook.com/DAVKEONJHAR1/" class="facebook"><i class="bi bi-facebook"></i></a>
             </div>
 
           </div>
 
           <div class="col-lg-3 col-md-6 footer-newsletter">
             <h4>Stay Updated</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <p>Please provide us your email for newsletters and other updates from DAV Public School, Keonjhar.</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
